@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(57, 186, 245);
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+   
+    
+}
+
+#jumpscare{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.cults3d.com/Ljpz-dkyBhkiAO2_YY2ceDuvE9s=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/26446172/illustration-file/c3ec3a6f-e52f-4f37-942b-4a4a19ab82e1/ZBrush_4Nq1DeVjWq.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+}
+#city{
+    margin-inline: auto;
+    width: fit-content;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    
+}
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(57, 186, 245);
+    font-weight: bold;
+    font-size: larger;
+}
+
+#search{
+    color: white;
+    background-color: rgb(57, 186, 245);    border: none;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#search:active{
+    background-color: rgb(16, 128, 180);
+    
+}
+#field{
+    border: solid 0.5px skyblue;
+    border-radius: 3px;
+    padding: 5px;
+}
+#weather{
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    padding: 15px 0 0;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+#app{
+    color: rgb(57, 186, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: solid gray 1px;
+    padding-bottom: 5px;
+    padding-inline: 50px;
+}
+#temper{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-inline: auto;
+}
+#cityname{
+    font-weight: bold;
+    margin-inline: auto;
+}
+#image{
+    margin-top: 15px;
+    width: 180px;
+    height: 170px;
+    display: none;
+    margin-inline: auto;
+}
+#details{
+    border-top: gray solid 2px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+#feels{
+    border-right: gray 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 5px;
+    gap: 5px;
+}
+
+#details1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    
+}
+
+#humi{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    
+}
+#icon{
+    width: 18px;
+    height: 17px;
+}
+#left{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
